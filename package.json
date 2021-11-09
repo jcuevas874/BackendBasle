@@ -5,17 +5,21 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon .",
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Jesus Cuevas",
   "license": "ISC",
   "dependencies": {
+    "@types/sequelize": "^4.28.10",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mysql": "^2.18.1",
+    "helmet": "^4.6.0",
+    "joi": "^17.4.2",
+    "mysql2": "^2.3.3-rc.0",
     "node": "^17.0.1",
-    "node-mysql-paginate": "github:niltonvasques/node-mysql-paginate"
+    "sequelize": "^6.9.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.14"
